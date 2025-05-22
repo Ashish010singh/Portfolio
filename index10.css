@@ -1,0 +1,79 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: #222;
+	color: white;
+	padding: 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	height: 50px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.nav-links li a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+	color: #00bcd4;
+}
+
+.hero {
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero-bg.jpg') center/cover no-repeat;
+	color: white;
+	text-align: center;
+	padding: 80px 20px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #00bcd4;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #0097a7;
+}
+
+.section {
+	padding: 60px 20px;
+	background-color: #fff;
+}
+
+.about-container,
+.resume-grid,
+.project-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.about-img img {
+	border-radius: 10px;
+}
+
+.skills-list {
+	display: flex;
+	
+}
