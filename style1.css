@@ -331,3 +331,107 @@ text-align: left;
     color: white;
   }
   
+
+
+  /* Responsive Design for Tablets and Mobile */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  #navbar nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  #navbar .call {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  header.hero {
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+
+  header.hero h1,
+  header.hero h1 span {
+    font-size: 2.5rem;
+  }
+
+  #aboutmain {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #about .div1,
+  #about .div2,
+  #about .div3 {
+    width: 100%;
+  }
+
+  #about .div1 img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  #about .Skills {
+    margin: 0;
+  }
+
+  #resume-section .flex1,
+  #resume-section .flex2 {
+    flex-direction: column;
+  }
+
+  #resume-section .col-md-6 {
+    width: 100%;
+  }
+
+  #contact .flex {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .project-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #navbar img {
+    width: 100px;
+  }
+
+  header.hero h1,
+  header.hero h1 span {
+    font-size: 2rem;
+  }
+
+  header.hero .btn {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+
+  #contact h2 {
+    font-size: 28px;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 2rem;
+  }
+}
