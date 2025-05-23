@@ -354,18 +354,27 @@ text-align: left;
   }
 
   header.hero {
-    padding: 5rem 2rem;
-    text-align:center;
-  }
-  header.hero.subheading{
+     padding: 5rem 2rem; 
+     text-align:center; 
+  } 
+   
+
+  
+  .subheading{
     font-size: 1rem;
-    margin-top: 12rem;
+    position:absolute; 
+    top: 300px;
+    /* text-align: center;  */
+    
+    /* margin-left: 9rem; */
   }
+
+
   header.hero h1,
   header.hero h1 span {
-    font-size: 2.5rem;
+    font-size: 1rem;
     margin-top: 15rem;
-    
+    text-align: center;
   }
 
   #aboutmain {
@@ -415,12 +424,21 @@ text-align: left;
 
   header.hero h1,
   header.hero h1 span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
-
+  .hero p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .hero a{
+    text-align: center;
+    position: absolute;
+    /* margin-left: 7rem; */
+  }
   header.hero .btn {
     font-size: 14px;
-    padding: 0.5rem 1rem;
+     padding: 0.5rem 1rem; 
+    /* text-align: center; */
   }
 
   #about h2 {
